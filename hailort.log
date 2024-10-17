@@ -1,0 +1,6 @@
+[2024-10-18 02:09:50.880] [7262] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 02:09:50.881] [7262] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:09:50.881] [7262] [HailoRT] [info] [vdevice.cpp:655] [create] VDevice Infos: 0000:01:00.0
+[2024-10-18 02:09:50.897] [7262] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 02:09:50.898] [7262] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:09:50.899] [7262] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
