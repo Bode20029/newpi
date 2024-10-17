@@ -4,3 +4,70 @@
 [2024-10-18 02:09:50.897] [7262] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
 [2024-10-18 02:09:50.898] [7262] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
 [2024-10-18 02:09:50.899] [7262] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:15:18.300] [7475] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 02:15:18.303] [7475] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:15:18.303] [7475] [HailoRT] [info] [vdevice.cpp:655] [create] VDevice Infos: 0000:01:00.0
+[2024-10-18 02:15:18.321] [7475] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 02:15:18.322] [7475] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:15:18.323] [7475] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:23:30.726] [7970] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 02:23:30.728] [7970] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:23:30.728] [7970] [HailoRT] [info] [vdevice.cpp:655] [create] VDevice Infos: 0000:01:00.0
+[2024-10-18 02:23:40.180] [8059] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 02:23:40.182] [8059] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:23:40.182] [8059] [HailoRT] [info] [vdevice.cpp:655] [create] VDevice Infos: 0000:01:00.0
+[2024-10-18 02:24:54.294] [8164] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 02:24:54.295] [8164] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:24:54.295] [8164] [HailoRT] [info] [vdevice.cpp:655] [create] VDevice Infos: 0000:01:00.0
+[2024-10-18 02:26:19.963] [8227] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 02:26:19.964] [8227] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:26:19.964] [8227] [HailoRT] [info] [vdevice.cpp:655] [create] VDevice Infos: 0000:01:00.0
+[2024-10-18 02:26:28.859] [8313] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 02:26:28.861] [8313] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:26:28.861] [8313] [HailoRT] [info] [vdevice.cpp:655] [create] VDevice Infos: 0000:01:00.0
+[2024-10-18 02:30:31.686] [8485] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 02:30:31.687] [8485] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:30:31.687] [8485] [HailoRT] [info] [vdevice.cpp:655] [create] VDevice Infos: 0000:01:00.0
+[2024-10-18 02:30:31.700] [8485] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 02:30:31.701] [8485] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:30:31.702] [8485] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:30:41.348] [8582] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 02:30:41.350] [8582] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:30:41.350] [8582] [HailoRT] [info] [vdevice.cpp:655] [create] VDevice Infos: 0000:01:00.0
+[2024-10-18 02:30:41.371] [8582] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 02:30:41.374] [8582] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:30:41.376] [8582] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:32:30.080] [8865] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 02:32:30.082] [8865] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:32:30.082] [8865] [HailoRT] [info] [vdevice.cpp:655] [create] VDevice Infos: 0000:01:00.0
+[2024-10-18 02:32:30.101] [8865] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 02:32:30.102] [8865] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:32:30.104] [8865] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:48:57.334] [8990] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 02:48:57.335] [8990] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:48:57.335] [8990] [HailoRT] [info] [vdevice.cpp:655] [create] VDevice Infos: 0000:01:00.0
+[2024-10-18 02:48:57.607] [8990] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 8399872. memory to edge layer usage factor is 0.4822741
+[2024-10-18 02:48:57.607] [8990] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2024-10-18 02:48:57.654] [8990] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 57.219544 milliseconds
+[2024-10-18 02:48:57.655] [8990] [HailoRT] [info] [vdevice.cpp:753] [configure] Configuring HEF on VDevice took 57.923325 milliseconds
+[2024-10-18 02:49:05.434] [9086] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 02:49:05.436] [9086] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 02:49:05.436] [9086] [HailoRT] [info] [vdevice.cpp:655] [create] VDevice Infos: 0000:01:00.0
+[2024-10-18 02:49:05.738] [9086] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 8399872. memory to edge layer usage factor is 0.4822741
+[2024-10-18 02:49:05.738] [9086] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2024-10-18 02:49:05.823] [9086] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 96.027762 milliseconds
+[2024-10-18 02:49:05.823] [9086] [HailoRT] [info] [vdevice.cpp:753] [configure] Configuring HEF on VDevice took 96.455986 milliseconds
+[2024-10-18 03:09:55.316] [9753] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 03:09:55.318] [9753] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 03:09:55.318] [9753] [HailoRT] [info] [vdevice.cpp:655] [create] VDevice Infos: 0000:01:00.0
+[2024-10-18 03:09:55.707] [9753] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 8399872. memory to edge layer usage factor is 0.4822741
+[2024-10-18 03:09:55.707] [9753] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2024-10-18 03:09:55.782] [9753] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 85.22247 milliseconds
+[2024-10-18 03:09:55.782] [9753] [HailoRT] [info] [vdevice.cpp:753] [configure] Configuring HEF on VDevice took 85.686676 milliseconds
+[2024-10-18 03:09:56.283] [9753] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 03:09:56.285] [9753] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 03:09:56.316] [9753] [HailoRT] [error] [vdevice.cpp:835] [create_devices] CHECK failed - Failed to create vdevice. there are not enough free devices. requested: 1, found: 0
+[2024-10-18 03:09:56.316] [9753] [HailoRT] [error] [vdevice.cpp:635] [create] CHECK_SUCCESS failed with status=HAILO_OUT_OF_PHYSICAL_DEVICES(74)
+[2024-10-18 03:09:56.316] [9753] [HailoRT] [error] [shared_resource_manager.hpp:81] [register_resource] CHECK_SUCCESS failed with status=HAILO_OUT_OF_PHYSICAL_DEVICES(74)
+[2024-10-18 03:09:56.316] [9753] [HailoRT] [error] [vdevice.cpp:138] [create] CHECK_SUCCESS failed with status=HAILO_OUT_OF_PHYSICAL_DEVICES(74)
+[2024-10-18 03:09:56.316] [9753] [HailoRT] [error] [vdevice.cpp:558] [create] CHECK_SUCCESS failed with status=HAILO_OUT_OF_PHYSICAL_DEVICES(74)
