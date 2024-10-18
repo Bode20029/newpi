@@ -71,3 +71,10 @@
 [2024-10-18 03:09:56.316] [9753] [HailoRT] [error] [shared_resource_manager.hpp:81] [register_resource] CHECK_SUCCESS failed with status=HAILO_OUT_OF_PHYSICAL_DEVICES(74)
 [2024-10-18 03:09:56.316] [9753] [HailoRT] [error] [vdevice.cpp:138] [create] CHECK_SUCCESS failed with status=HAILO_OUT_OF_PHYSICAL_DEVICES(74)
 [2024-10-18 03:09:56.316] [9753] [HailoRT] [error] [vdevice.cpp:558] [create] CHECK_SUCCESS failed with status=HAILO_OUT_OF_PHYSICAL_DEVICES(74)
+[2024-10-18 03:50:10.445] [11270] [HailoRT] [error] [vdevice.cpp:615] [validate_params] CHECK failed - VDevice creation failed. invalid device_count (0).
+[2024-10-18 03:50:10.445] [11270] [HailoRT] [error] [vdevice.cpp:530] [create] CHECK_SUCCESS failed with status=HAILO_INVALID_ARGUMENT(2)
+[2024-10-18 03:50:22.498] [11357] [HailoRT] [error] [vdevice.cpp:615] [validate_params] CHECK failed - VDevice creation failed. invalid device_count (0).
+[2024-10-18 03:50:22.498] [11357] [HailoRT] [error] [vdevice.cpp:530] [create] CHECK_SUCCESS failed with status=HAILO_INVALID_ARGUMENT(2)
+[2024-10-18 03:57:58.980] [11543] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.6.51+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08) aarch64
+[2024-10-18 03:57:58.986] [11543] [HailoRT] [info] [control.cpp:109] [control__parse_identify_results] firmware_version is: 4.19.0
+[2024-10-18 03:57:58.986] [11543] [HailoRT] [info] [vdevice.cpp:655] [create] VDevice Infos: 0000:01:00.0

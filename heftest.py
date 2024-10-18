@@ -251,25 +251,63 @@ import cv2
 import numpy as np
 import queue
 import hailo_platform.pyhailort as pyhailort
-from hailo_platform import HEF
-from my_utils import HailoAsyncInference  # Ensure you have renamed your utils.py file to my_utils.py
+from my_utils import HailoAsyncInference  # Import it from the correct file
+
+# Check if _pyhailort has VDevice and check for available physical devices
+def check_physical_devices():
+    try:
+        # Import VDeviceParams from _pyhailort
+        VDeviceParams = pyhailort._pyhailort.VDeviceParams
+        
+        # Initialize VDeviceParams and explicitly set device_count
+        params = VDeviceParams()
+        params.device_count = 1  # Ensure it tries to create at least 1 virtual device
+        
+        # Use the create() method to initialize the VDevice
+        vdevice = pyhailort._pyhailort.VDevice.create(params)  # Pass the params
+        
+        physical_devices = vdevice.get_physical_devices()
+
+        if not physical_devices:
+            print("No physical devices found.")
+        else:
+            print(f"Found physical devices: {physical_devices}")
+        return vdevice  # Return the created vdevice for use
+    except AttributeError as e:
+        print("VDevice class not found:", e)
+    except TypeError as e:
+        print("Error creating VDevice:", e)
+    except pyhailort._pyhailort.HailoRTStatusException as e:
+        print(f"Failed to create VDevice: {e}")
+    return None
 
 # Initialize Hailo runtime and network group
 def initialize_hailo_runtime(hef_file_path):
-    # Use VDevice to create a virtual device
-    vdevice = pyhailort.pyhailort.VDevice()
+    try:
+        # Import VDeviceParams from _pyhailort
+        VDeviceParams = pyhailort._pyhailort.VDeviceParams
+        
+        # Initialize VDeviceParams and explicitly set device_count
+        params = VDeviceParams()
+        params.device_count = 1  # Ensure it tries to create at least 1 virtual device
+        
+        # Use the create() method to initialize the VDevice
+        vdevice = pyhailort._pyhailort.VDevice.create(params)  # Pass the params
+        
+        # Load the HEF file using the HEF class
+        hef = pyhailort.HEF(hef_file_path)
 
-    # Load the HEF file using the HEF class
-    hef = HEF(hef_file_path)
+        # Configure the device with the HEF object
+        network_groups = vdevice.configure(hef)
+        network_group = network_groups[0]  # Assuming you want the first network group
 
-    # Configure the device with the HEF object
-    network_groups = vdevice.configure(hef)
-    network_group = network_groups[0]  # Assuming you want the first network group
+        # Activate the network group
+        network_group.activate()
 
-    # Activate the network group
-    network_group.activate()
-
-    return vdevice, network_group
+        return vdevice, network_group
+    except Exception as e:
+        print(f"Failed to initialize Hailo runtime: {e}")
+        return None, None
 
 # Preprocess frame to match model input size
 def preprocess_frame(frame, input_shape):
@@ -332,18 +370,23 @@ def run_inference_on_camera(camera_id, device, network_group, hef_file_path, bat
 
 # Main function
 def main():
-    # Define the HEF file path and batch size
+    # Define the HEF file path
     hef_file_path = "/home/bode/Desktop/newpi/models/yolov8l.hef"
-    batch_size = 1  # You can adjust this as needed
-    devices = pyhailort.Device.scan_devices()
-    if not devices:
-        print("No Hailo devices found!")
 
-    # Initialize Hailo runtime and network
-    device, network_group = initialize_hailo_runtime(hef_file_path)
-    
-    # Run inference on the USB camera feed
-    run_inference_on_camera(camera_id=0, device=device, network_group=network_group, hef_file_path=hef_file_path, batch_size=batch_size)
+    # Check for physical devices first
+    vdevice = check_physical_devices()
+
+    if vdevice is not None:
+        # Initialize Hailo runtime and network
+        device, network_group = initialize_hailo_runtime(hef_file_path)
+        
+        if device is not None and network_group is not None:
+            # Run inference on the USB camera feed
+            run_inference_on_camera(camera_id=0, device=device, network_group=network_group, hef_file_path=hef_file_path, batch_size=1)
+        else:
+            print("Failed to initialize the Hailo device.")
+    else:
+        print("No valid VDevice created.")
 
 if __name__ == "__main__":
     main()
